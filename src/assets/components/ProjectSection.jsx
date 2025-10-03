@@ -6,6 +6,7 @@ import project4Image from '@/assets/images/project4.png';
 import project5Image from '@/assets/images/project5.png';
 import project6Image from '@/assets/images/project6.png';
 import project7Image from '@/assets/images/project7.png';
+import project8Image from '@/assets/images/project8.png';
 
 const projects = [
     {
@@ -70,6 +71,14 @@ const projects = [
         image: project7Image,
         tags: ["Ajax", "Activity", "TailwindCSS"],
         githubURL: "https://github.com/ronn-bldv/Student-Management-Using-AJAX",
+    },
+    {
+        id: 8 ,
+        title: "Portfolio using React + TailwindCSS",
+        description: "A personal portfolio website built with React and TailwindCSS, showcasing projects, skills, and experience in a clean and responsive design.",
+        image: project8Image,
+        tags: ["Portfolio", "React", "TailwindCSS"],
+        githubURL: "https://github.com/ronn-bldv/ronn-portfolio",
     }
 
 ]
